@@ -1,0 +1,110 @@
+/* Universal Font and margin, padding */
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Work Sans';
+}
+
+/* Banner Container Styles */
+
+.banner-container {
+    height: 100vh;
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+
+}
+
+.banner-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    line-height: 26px;
+    width: 494px;
+    margin-top: 24px;
+}
+
+.banner-details {
+    margin-right: 250px;
+
+
+}
+
+.btn-contact-us {
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 53px;
+}
+
+/* failure-container-styles */
+.failures-container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+
+
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #444343;
+    line-height: 26px;
+    width: 416px;
+    margin-top: 24px;
+}
+
+.failures-container-details {
+    margin-right: 300px;
+    margin-top: 380px;
+    margin-bottom: 638px;
+
+
+}
+
+.failures-list {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    margin-left: 2 px;
+    list-style: none;
+    line-height: 30px;
+
+}
+
+/* i found it from google, after searching for an hour */
+ul li:before {
+    content: '✓';
+    color: #16D887;
+    margin-right: 10px;
+}
+.mohila{
+    margin: 136px 327px 548px 201px;
+    
+}
