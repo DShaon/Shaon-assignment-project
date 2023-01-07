@@ -5,6 +5,7 @@
 
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 /* Banner Container Styles */
@@ -26,6 +27,7 @@
     color: #151414;
     font-weight: 700;
     font-size: 65px;
+    text-shadow: 2px 2px 2px #000000;
 
 }
 
@@ -54,6 +56,8 @@
     font-weight: 600;
     font-size: 20px;
     margin-top: 53px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,.8);
+    
 }
 
 /* failure-container-styles */
@@ -68,6 +72,8 @@
 .failures-title {
     font-weight: 700;
     font-size: 40px;
+    text-shadow: 2px 1px 2px #222222;
+
 
 
 }
@@ -125,6 +131,8 @@ ul li:before {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    text-shadow: 2px 1px 2px #222222;
+
 
 
 }
@@ -139,6 +147,7 @@ ul li:before {
     font-weight: 700;
     font-size: 30px;
     margin-top: 30px;
+    
 
 }
 
@@ -174,7 +183,7 @@ ul li:before {
 .callnow-banner {
     width: 53%;
     linear-gradient(90deg, #F15B22 10.88%, rgba(241, 91, 34, 0) 110.88%);
-    background-image: url(../images/watch.png), linear-gradient(90deg, #99583c 10.88%, rgba(238, 109, 58, 0.075) 95.88%);
+    background-image: url(../images/watch.png), linear-gradient(90deg, #50372c 10.88%, rgba(238, 109, 58, 0.075) 95.88%);
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
 
@@ -183,6 +192,8 @@ ul li:before {
     background-blend-mode: overlay;
     border-radius: 8px;
     margin-top: 123px;
+    text-shadow: 3px 4px 4px #0f0f0f;
+
 
 }
 
@@ -196,5 +207,98 @@ ul li:before {
     border-style: none;
     padding: 20px 35px;
     margin-top: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
+/* future and subscribe */
+.future-subscribe {
+    display: flex;
+    gap: 330px;
+    background: #000000;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
+
+
+
+.future-subscribe .future-title {
+    text-align: left;
+
+}
+
+.btn-subscribe {
+    /* font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    border-radius: 5px;
+    border-style: none;
+    padding: 20px 35px;
+    margin-top: 20px; */
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 170.11px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    text-align: center;
+    border-style: none;
+    margin-top: 20px;
+
+
+
+}
+
+.email-box {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: #151414;
+    width: 100%;
+    padding: 25px;
+    margin-top: 16px;
+}
+
+.subscribe-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+
+
+}
+
+.future-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 485px;
+    margin-top: 16px;
+
+
+
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+a{
+    text-decoration: none;
+    margin-right: 15px;
+}
