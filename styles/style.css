@@ -213,7 +213,7 @@ ul li:before {
 /* future and subscribe */
 .future-subscribe {
     display: flex;
-    gap: 330px;
+    gap: 450px;
     background: #000000;
     padding: 130px 230px;
     margin-top: 100px;
