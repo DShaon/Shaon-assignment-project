@@ -4,7 +4,7 @@
     padding: 0px;
 
     font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Banner Container Styles */
@@ -132,7 +132,7 @@ ul li:before {
 .plan-container {
     display: flex;
     gap: 86px;
-    
+
 }
 
 .plan-title {
@@ -151,7 +151,21 @@ ul li:before {
 
 .plan {
     padding: 100px;
-    
+
     text-align: center;
+
+}
+
+/* rectangle banner styles */
+.rct-banner-image {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20%;
+    border-radius: 8px;
+
+
 
 }
