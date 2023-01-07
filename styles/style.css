@@ -157,7 +157,8 @@ ul li:before {
 }
 
 /* rectangle banner styles */
-.rct-banner-image {
+
+/* .rct-banner-image {
     display: flex;
     justify-content: center;
     background-image: url(../images/watch.png);
@@ -168,4 +169,32 @@ ul li:before {
 
 
 
+} */
+
+.callnow-banner {
+    width: 53%;
+    linear-gradient(90deg, #F15B22 10.88%, rgba(241, 91, 34, 0) 110.88%);
+    background-image: url(../images/watch.png), linear-gradient(90deg, #99583c 10.88%, rgba(238, 109, 58, 0.075) 95.88%);
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+
+    padding: 60px;
+    margin: auto;
+    background-blend-mode: overlay;
+    border-radius: 8px;
+    margin-top: 123px;
+
 }
+
+
+.btn-call-now {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    border-radius: 5px;
+    border-style: none;
+    padding: 20px 35px;
+    margin-top: 20px;
+}
+
